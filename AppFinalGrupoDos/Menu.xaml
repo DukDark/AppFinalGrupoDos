@@ -3,10 +3,41 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppFinalGrupoDos.Menu">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <StackLayout BackgroundColor="#FFD700">
+
+        <Frame BackgroundColor="white" Padding="24" CornerRadius="0">
+            <Button x:Name ="btnRegresas"   Text="Regresar"  MinimumWidthRequest="10" AnchorX="10" AnchorY="10" MinimumHeightRequest="-15" />
+        </Frame>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Image Source="pacientes.png" Grid.Row="0" Grid.Column="0"/>
+            <Button Text="Paciente" Grid.Row="1" Grid.Column="0" />
+            <Image Source="carnet.png" Grid.Row="0" Grid.Column="1"/>
+            <Button Text="Carnet" Grid.Row="1" Grid.Column="1" />
+            <Image Source="detalle.png" Grid.Row="2" Grid.Column="0"/>
+            <Button Text="Detalle" Grid.Row="3" Grid.Column="0"/>
+            <Image Source="centro.png" Grid.Row="2" Grid.Column="1"/>
+            <Button Text="Centro" Grid.Row="3" Grid.Column="1"/>
+            <Image Source="vacuna.png" Grid.Row="4" Grid.Column="0"/>
+            <Button Text="Vacuna" Grid.Row="5" Grid.Column="0"/>
+
+
+        </Grid>
+
+
+    </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>
