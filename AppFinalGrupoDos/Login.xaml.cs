@@ -45,11 +45,11 @@ namespace AppFinalGrupoDos
             if (googleUser != null)
             {
                 GoogleUser = googleUser;
-                lblName.Text = GoogleUser.Name;
+                /*lblName.Text = GoogleUser.Name;
                 lblEmail.Text = GoogleUser.Email;
-                imgProfile.Source = GoogleUser.Picture;
+                imgProfile.Source = GoogleUser.Picture;*/
                 IsLogedIn = true;
-                await Navigation.PushAsync(new Menu());
+                await Navigation.PushAsync(new Usuario(GoogleUser.Name, GoogleUser.Email, GoogleUser.Picture));
             }
             else
             {
@@ -62,7 +62,7 @@ namespace AppFinalGrupoDos
             IsLogedIn = false;
         }
 
-        private async void btnSalir_Clicked(object sender, EventArgs e)
+        /*private async void btnSalir_Clicked(object sender, EventArgs e)
         {
             try
             {
@@ -76,6 +76,6 @@ namespace AppFinalGrupoDos
             {
                 await DisplayAlert("Mensaje de alerta", ex.Message, "OK");
             }
-        }
+        }*/
     }
 }

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFinalGrupoDos.Usuario">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Usuario conectado" FontSize="20" HorizontalTextAlignment="Center" />
+            <Label Text="Nombre" x:Name="lblName" FontSize="18" HorizontalTextAlignment="Center"  />
+            <Label Text="Email" x:Name="lblEmail" FontSize="18" HorizontalTextAlignment="Center"  />
+            <Image x:Name="imgProfile" WidthRequest="150" HeightRequest="150"/>
+
+            <Button x:Name="btnContinuar" Text="Continuar" Clicked="btnContinuar_Clicked" CornerRadius="6" BackgroundColor="Blue" TextColor="White" 
+                        FontAttributes="Bold" FontSize="20" Margin="0,8,0,0" />
+
+            <Button x:Name="btnSalir" Text="Cerrar Sesión" Clicked="btnSalir_Clicked" CornerRadius="6" BackgroundColor="Red" TextColor="White" 
+                        FontAttributes="Bold" FontSize="20" Margin="0,8,0,0" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

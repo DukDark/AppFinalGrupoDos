@@ -6,15 +6,9 @@
         <StackLayout>
 
             <Image Source="logouio.png" />
-            <Label Text="Nombre" x:Name="lblName" FontSize="18" HorizontalTextAlignment="Center"  />
-            <Label Text="Email" x:Name="lblEmail" FontSize="18" HorizontalTextAlignment="Center"  />
-            <Image x:Name="imgProfile" WidthRequest="150" HeightRequest="150"/>
 
-            <Button x:Name="btnIngresar" Text="Ingresar con Gmail" Clicked="btnIngresar_Clicked" CornerRadius="6" BackgroundColor="Tomato" TextColor="White" 
-                        FontAttributes="Bold" FontSize="20" Margin="0,8,0,0" />
-
-            <Button x:Name="btnSalir" Text="Cerrar Sesión" Clicked="btnSalir_Clicked" CornerRadius="6" BackgroundColor="Tomato" TextColor="White" 
-                        FontAttributes="Bold" FontSize="20" Margin="0,8,0,0" />
+            <Button x:Name="btnIngresar" Text="Ingresar con Gmail" Clicked="btnIngresar_Clicked" CornerRadius="6" BackgroundColor="Blue" TextColor="White" 
+                        FontAttributes="Bold" FontSize="20" Margin="0,8,0,0" ContentLayout="Left,5" ImageSource="logogoogle.png" />
 
         </StackLayout>
     </ContentPage.Content>
