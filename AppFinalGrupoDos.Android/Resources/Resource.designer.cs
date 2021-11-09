@@ -25,6 +25,8 @@ namespace AppFinalGrupoDos.Droid
 		
 		public static void UpdateIdValues()
 		{
+<<<<<<< HEAD
+=======
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::AppFinalGrupoDos.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::AppFinalGrupoDos.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::AppFinalGrupoDos.Droid.Resource.Attribute.fontProviderAuthority;
@@ -7453,11 +7455,38 @@ namespace AppFinalGrupoDos.Droid
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_start = global::AppFinalGrupoDos.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_top_start = global::AppFinalGrupoDos.Droid.Resource.Xml.standalone_badge_gravity_top_start;
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_offset = global::AppFinalGrupoDos.Droid.Resource.Xml.standalone_badge_offset;
+>>>>>>> f9e5fb87474777c8c9b3f87f942e807f4c770f66
 		}
 		
-		public partial class Animation
+		public partial class Attribute
 		{
 			
+<<<<<<< HEAD
+			static Attribute()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Attribute()
+			{
+			}
+		}
+		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7F010000
+			public const int colorAccent = 2130771968;
+			
+			// aapt resource value: 0x7F010001
+			public const int colorPrimary = 2130771969;
+			
+			// aapt resource value: 0x7F010002
+			public const int colorPrimaryDark = 2130771970;
+			
+			// aapt resource value: 0x7F010003
+			public const int launcher_background = 2130771971;
+=======
 			// aapt resource value: 0x7F010000
 			public const int abc_fade_in = 2130771968;
 			
@@ -7565,21 +7594,25 @@ namespace AppFinalGrupoDos.Droid
 			
 			// aapt resource value: 0x7F010023
 			public const int mtrl_card_lowers_interpolator = 2130772003;
+>>>>>>> f9e5fb87474777c8c9b3f87f942e807f4c770f66
 			
-			static Animation()
+			static Color()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
-			private Animation()
+			private Color()
 			{
 			}
 		}
 		
-		public partial class Animator
+		public partial class Mipmap
 		{
 			
 			// aapt resource value: 0x7F020000
+<<<<<<< HEAD
+			public const int icon = 2130837504;
+=======
 			public const int design_appbar_state_list_animator = 2130837504;
 			
 			// aapt resource value: 0x7F020001
@@ -7641,21 +7674,38 @@ namespace AppFinalGrupoDos.Droid
 			
 			// aapt resource value: 0x7F020014
 			public const int mtrl_fab_transformation_sheet_expand_spec = 2130837524;
+>>>>>>> f9e5fb87474777c8c9b3f87f942e807f4c770f66
 			
-			static Animator()
+			// aapt resource value: 0x7F020001
+			public const int icon_round = 2130837505;
+			
+			// aapt resource value: 0x7F020002
+			public const int launcher_foreground = 2130837506;
+			
+			static Mipmap()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
-			private Animator()
+			private Mipmap()
 			{
 			}
 		}
 		
-		public partial class Attribute
+		public partial class Style
 		{
 			
 			// aapt resource value: 0x7F030000
+<<<<<<< HEAD
+			public const int MainTheme = 2130903040;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
+=======
 			public const int actionBarDivider = 2130903040;
 			
 			// aapt resource value: 0x7F030001
@@ -19720,6 +19770,7 @@ namespace AppFinalGrupoDos.Droid
 			}
 			
 			private Styleable()
+>>>>>>> f9e5fb87474777c8c9b3f87f942e807f4c770f66
 			{
 			}
 		}
